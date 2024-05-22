@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CoolWear</title>
+        <link rel="stylesheet" href="../estatico/CSS/style.css">  
+    </head> 
+
+<body>
+<!-- Encabezado -->
+<header>
+    <div>
+      <img src="../estatico/img/icons8-sass-a-style-sheet-professional-grade-css-extension-language-32.png" alt="logo">
+            <strong><span id="fuente">"COOL WEAR"</span></strong>
+            <h1 id="titulo">ROPA URBANA Y DEPORTIVA A TU MEDIDA</h1>
+    </div>
+  </header>  
+ 
+    <nav class="header-menubar">    
+        <a href="catalogo.html"><strong>Catálogo</strong> </a><br>
+        <a href="../index.html"><strong>Inicio</strong></a>  
+    </nav>
+   
+    <!-- Contenido -->
+    <main>  
+        <section>
+        <h1>Registro</h1>
+      
+                <div class="form-control">
+                    <label ><strong>Nombre</strong></label>
+                    <input type="text" id="firstname" name="firstname" required placeholder="su nombre completo"><br>
+                </div>
+                <div class="error" id="error-firstname"></div>
+
+                <div class="form-control">
+                    <label ><strong>Apellido</strong></label>
+                    <input type="text" id="lastname" name="lastname" required placeholder="su apellido"><br>
+                </div>
+                <div class="error" id="error-lastname"></div>
+
+                <div class="form-control">
+                    <label ><strong>Email</strong></label>>
+                    <input type="email" id="email" name="email" required placeholder="ejemplo@ejemplo.com"><br>
+                </div>
+                <div class="error" id="error-email"></div>
+
+                <div class="form-control">
+                    <label id="label-birthdate"><strong>Fecha de Nacimiento</strong></label>
+                    <input type="date" id="birthdate" name="birthdate" required><br>
+                </div>
+                
+                <div class="boton">
+                    <button type="submit"><strong>Enviar</strong</button> 
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- pie -->
+    <footer >
+        <img src="../estatico/img/icons8-sass-a-style-sheet-professional-grade-css-extension-language-32.png" alt="logo"> 
+        <span><strong>COOL WEAR SA</strong></span>
+        <address><strong></m>Callao 1325- Buenos Aires. Argentina</strong></address>
+        <small><strong>mail: coolwear@central  -  tel. 54 9 11 555566</strong></small>
+    </footer>     
+</body>
+</html>

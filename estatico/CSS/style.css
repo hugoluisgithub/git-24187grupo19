@@ -1,0 +1,141 @@
+body, header, nav, main {
+    min-width: 20px;
+    border: 3px black;
+    margin: 0.3rem 0.5rem;
+    padding: 20px
+    background-color #f4a261;
+    font-family:  "Poetsen One", sans-serif;
+    overflow: auto; 
+}
+
+#titulo {
+    text-align: center;
+}
+
+header {
+    background-color: #f4a261;
+    list-style-position: center;
+    font-family:  "Poetsen One", sans-serif;  
+}
+
+/*Barra de Navegación*/
+.header-menubar {
+    background-color: #f4a261;
+    text-align: left;
+    color: rgba(0, 255, 21, 0.295);
+    border-color: rgb(253, 10, 59);
+  min-height: 20px;
+}
+
+h1{
+    text-decoration: underline; 
+    font-family: "Poetsen One", sans-serif; 
+    color: #bc6c25;
+} 
+
+h2  {
+    font-size: large;
+    font-family:  "Poetsen One", sans-serif;  
+    color: #540b0e; 
+}
+
+h3{
+    text-decoration: underline;
+    font-family: "Poetsen One", sans-serif;
+}
+
+span {
+    color: brown;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    min-height: 160px;
+    list-style-position: center;
+    background-color:#f4a261;
+    color: brown;
+    font-family:"Poetsen One", sans-serif; 
+    border: 0px color black;
+    text-align: center;
+}
+
+.seccion {
+    border: 2px blueviolet solid;
+    min-height: 50px;
+    margin: 0.5rem;
+}
+
+.grilla{
+    display: grid;
+    /* grid-template-columns:50% 200px;*/
+    /* grid-template-rows: 150px 250px;  */
+    grid-template-columns:repeat(12,1fr);
+    gap:2em;
+}
+
+footer {
+    font-style:italic;
+    color:#d0f4de ;
+    background-color: #dda15e;
+    margin: 0.3rem 0.5rem;
+    padding: 20px;
+    font-size: 15px;
+    font-family: "Poetsen One", sans-serif; 
+}
+
+img{
+    border-radius: 50px;
+} 
+
+p{
+    font-size: larger; 
+    font-family: "Poetsen One", sans-serif;
+}
+
+.kimono {
+    width: 200px;
+}
+
+.form-control {
+    height: 50px;
+}
+
+ /* Movimiento Página Ofertas */
+.slide-right {
+	-webkit-animation: slide-right 0.5s ;
+	        animation: slide-right 0.5s ;
+}
+@-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+
+  button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: large;
+    color: brown;
+    background-color: #f7d7bc;
+  }
+
+
